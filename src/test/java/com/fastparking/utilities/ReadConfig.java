@@ -96,5 +96,40 @@ public class ReadConfig {
 		return value;
 	}
 	
+	public String getParkingOwnerEmail() {
+		String value = prop.getProperty("parkingOwnerEmail");
+		return value;
+	}
+	
+	public String getBlockParkingOwnerEmail() {
+		String value = prop.getProperty("BlockParkingOwner");
+		return value;
+	}
+	
+	public String getUnBlockParkingOwnerEmail() {
+		String value = prop.getProperty("UnBlockParkingOwner");
+		return value;
+	}
+	
+	public String getParkingName() {
+		String value = prop.getProperty("FindParking");
+		return value;
+	}
+	
+	public String getBookingOwner() {
+		String value = prop.getProperty("BookingOwner");
+		return value;
+	}
+	
+	public String getBookingOwnerStatus() {
+		String value = prop.getProperty("BookigOwnerStatus");
+		return value;
+	}
+	
+	public String getBookingID() {
+		String value = prop.getProperty("BookingID");
+		return value;
+	}
+	
 	
 }

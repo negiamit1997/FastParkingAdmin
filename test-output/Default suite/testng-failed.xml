@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.fastparking.testcases.TC_ParkingOwners">
+      <class name="com.fastparking.testcases.TC_Bookings">
         <methods>
-          <include name="verifyAddParkingOwner" invocation-numbers="0 1 2 3 4"/>
+          <include name="verifyBokingDetails"/>
           <include name="setup"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- com.fastparking.testcases.TC_ParkingOwners -->
+      </class> <!-- com.fastparking.testcases.TC_Bookings -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

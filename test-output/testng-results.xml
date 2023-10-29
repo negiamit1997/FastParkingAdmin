@@ -1,176 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+<testng-results ignored="2" total="3" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-10-27T00:10:00 IST" name="Default suite" finished-at="2023-10-27T00:11:24 IST" duration-ms="83506">
+  <suite started-at="2023-10-29T17:48:31 IST" name="Default suite" finished-at="2023-10-29T17:49:04 IST" duration-ms="32892">
     <groups>
     </groups>
-    <test started-at="2023-10-27T00:10:00 IST" name="Default test" finished-at="2023-10-27T00:11:24 IST" duration-ms="83506">
-      <class name="com.fastparking.testcases.TC_ParkingOwners">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.fastparking.testcases.TC_ParkingOwners@235f4c10]" started-at="2023-10-27T00:10:00 IST" name="setup" finished-at="2023-10-27T00:10:07 IST" duration-ms="6931" status="PASS">
+    <test started-at="2023-10-29T17:48:31 IST" name="Default test" finished-at="2023-10-29T17:49:04 IST" duration-ms="32892">
+      <class name="com.fastparking.testcases.TC_Bookings">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.fastparking.testcases.TC_Bookings@2dc54ad4]" started-at="2023-10-29T17:48:31 IST" name="setup" finished-at="2023-10-29T17:48:39 IST" duration-ms="8189" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyAddParkingOwner(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.fastparking.testcases.TC_ParkingOwners@235f4c10]" started-at="2023-10-27T00:10:08 IST" name="verifyAddParkingOwner" data-provider="parkingOwnerDataProvider" finished-at="2023-10-27T00:10:24 IST" duration-ms="16123" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Ketan]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[kat11@yopmail.com]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[India]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[9456326998]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[123456]]>
-              </value>
-            </param>
-          </params>
+        <test-method signature="verifyBokingDetails()[pri:0, instance:com.fastparking.testcases.TC_Bookings@2dc54ad4]" started-at="2023-10-29T17:48:39 IST" name="verifyBokingDetails" finished-at="2023-10-29T17:49:04 IST" duration-ms="24645" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyAddParkingOwner -->
-        <test-method signature="verifyAddParkingOwner(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.fastparking.testcases.TC_ParkingOwners@235f4c10]" started-at="2023-10-27T00:10:24 IST" name="verifyAddParkingOwner" data-provider="parkingOwnerDataProvider" finished-at="2023-10-27T00:10:39 IST" duration-ms="15043" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Vasu]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[vasu1@yopmail.com]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[India]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[9456326889]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[123456]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyAddParkingOwner -->
-        <test-method signature="verifyAddParkingOwner(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.fastparking.testcases.TC_ParkingOwners@235f4c10]" started-at="2023-10-27T00:10:39 IST" name="verifyAddParkingOwner" data-provider="parkingOwnerDataProvider" finished-at="2023-10-27T00:10:54 IST" duration-ms="14737" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[joy]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[joy1@yopmail.com]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[India]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[9456326991]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[123456]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyAddParkingOwner -->
-        <test-method signature="verifyAddParkingOwner(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.fastparking.testcases.TC_ParkingOwners@235f4c10]" started-at="2023-10-27T00:10:54 IST" name="verifyAddParkingOwner" data-provider="parkingOwnerDataProvider" finished-at="2023-10-27T00:11:09 IST" duration-ms="14638" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[max]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[max1@yopmail.com]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[India]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[9456326112]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[123456]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyAddParkingOwner -->
-        <test-method signature="verifyAddParkingOwner(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.fastparking.testcases.TC_ParkingOwners@235f4c10]" started-at="2023-10-27T00:11:09 IST" name="verifyAddParkingOwner" data-provider="parkingOwnerDataProvider" finished-at="2023-10-27T00:11:23 IST" duration-ms="14837" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[tapu]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[vtapu1@yopmail.com]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[India]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[9456326881]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[123456]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyAddParkingOwner -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.fastparking.testcases.TC_ParkingOwners@235f4c10]" started-at="2023-10-27T00:11:23 IST" name="tearDown" finished-at="2023-10-27T00:11:24 IST" duration-ms="387" status="PASS">
+        </test-method> <!-- verifyBokingDetails -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.fastparking.testcases.TC_Bookings@2dc54ad4]" started-at="2023-10-29T17:49:04 IST" name="tearDown" finished-at="2023-10-29T17:49:04 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.fastparking.testcases.TC_ParkingOwners -->
+      </class> <!-- com.fastparking.testcases.TC_Bookings -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

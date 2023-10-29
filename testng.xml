@@ -3,7 +3,7 @@
 <suite name="Suite">
 	<test thread-count="5" name="Test">
 		<classes>
-			<class name="com.fastparking.testcases.TC_ParkingOwners" />
+			<class name="com.fastparking.testcases.TC_Parking" />
 		</classes>
 	</test> <!-- Test -->
 </suite> <!-- Suite -->

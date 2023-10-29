@@ -35,6 +35,13 @@ public class BaseTest {
 	String unblockUserEmail = readConfig.getUnblockUser();
 	String searchUser = readConfig.getSearchUser();
 	String addOwnerMessage = readConfig.getOwnerAddMsz();
+	String parkingOwnerMail = readConfig.getParkingOwnerEmail();
+	String BlockParkingOwnerMail = readConfig.getBlockParkingOwnerEmail();
+	String UnBlockParkingOwnerMail = readConfig.getUnBlockParkingOwnerEmail();
+	String parkingName = readConfig.getParkingName();
+	String BookingOwnerName = readConfig.getBookingOwner();
+	String BookingOwnerStatus = readConfig.getBookingOwnerStatus();
+	String BookingID = readConfig.getBookingID();
 	
 	//Objects
 	public static WebDriver driver;
@@ -99,8 +106,8 @@ public class BaseTest {
 	
 	@AfterClass
 	public void tearDown() {
-		driver.close();
-		driver.quit();
+		//driver.close();
+		//driver.quit();
 	}
 	
 }
